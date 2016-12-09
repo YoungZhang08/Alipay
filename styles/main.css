@@ -1,0 +1,225 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.content-box{
+  background-color: #F4F4F8; 
+}
+.content-box>div:nth-child(2){
+  height: 4.5rem; 
+}
+.header{
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 3.5rem;
+  top: 0;
+  background-color: #1B82D2;
+}
+#myself{
+  position: fixed;
+  width: 20%;
+  height: 3.5rem;
+  left: 0;
+  text-align: center;
+}
+#myself p{
+  font-size: 0.8rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  color: white;
+}
+#setting{
+  position: fixed;
+  width: 10%;
+  height: 3.5rem;
+  right: 0;
+}
+#setting img{
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.individual{
+  letter-spacing: -4px;
+  width: 100%;
+  height: 6rem;
+  margin-top: 3.5rem;
+  background-color: white;
+}
+.imgBox{
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: 6rem;
+}
+.imgBox img{
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.textBox{
+  letter-spacing: 0.1px;
+  display: inline-block;
+  position: relative;
+  width: 60%;
+  height: 6rem;
+}
+.textBox p{
+  text-align: left;
+  width: 100%;
+  height: 4rem;
+  line-height: 0.8rem;
+  font-size: 0.8rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.QRCode{
+  position: relative;
+  display: inline-block;
+  width: 10%;
+  height: 6rem;
+}
+.QRCode img{
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.arrow{
+  position: relative;
+  display: inline-block;
+  width: 10%;
+  height: 6rem;
+}
+.arrow img{
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.content_1{
+  width: 100%;
+  height: 12rem;
+  background-color: white;
+  margin-top: 0.8rem;
+}
+.content_2{
+  width: 100%;
+  height: 15rem;
+  background-color: white;
+  margin-top: 0.8rem;
+}
+.content_3{
+  width: 100%;
+  height: 6rem;
+  background-color: white;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.rowContent{
+  position: relative;
+  width: 98.5%;
+  height: 3rem;
+  margin-left: 1.5%;
+  border-bottom: 1px solid #F4F4F8;
+}
+.icon{
+  display: inline-block;
+  position: relative;
+  width: 10%;
+  height: 3rem;
+}
+.icon img{
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.text{
+  display: inline-block;
+  position: relative;
+  letter-spacing: 0.5px;
+  width: 77%;
+  height: 3rem;
+}
+.text p{
+  width: 5rem;
+  height: 1.5rem;
+  font-size: 0.9rem;
+  color: #434343;
+  line-height: 1.5rem;
+  position: absolute;
+  text-align: left;
+  margin-left: 10px;
+}
+.arr{
+  display: inline-block;
+  position: relative;
+  width: 10.14%;
+  height: 3rem;
+  right: 0;
+}
+.arr img{
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.footer{
+  z-index: 1; 
+  position: fixed;
+  width: 100%;
+  height: 4.5rem;
+  bottom: 0;
+  background-color: white;
+}
+.bottom{
+  position: relative;
+  display: inline-block;
+  width: 24%;
+  height: 5rem;
+}
+.bottomBox{
+  width: 2rem;
+  height: 4.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.bottomBox img{
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  margin-top: 20%;
+}
+.bottomBox p{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.8rem;
+  width: 2rem;
+  height: 1rem;
+}
